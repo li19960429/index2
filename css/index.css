@@ -1,0 +1,255 @@
+@charset 'UTF-8';
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+	}
+body,ul,h1,h2,h3,p,span,a,img{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+h1,h2,h3,p,a,span{
+	font-size: 14px;
+	font-family: '宋体';
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+body{
+	width: 100%;
+	background-color: #ECF9F1;
+}
+#header{
+	width: 100%;
+	height: 190px;
+	background: url('../images/lb.fw.png') center;
+}
+#header h1{
+	width: 960px;
+	background: url('../images/logo.fw.png') no-repeat;
+	line-height: 42px;
+	text-indent: -1000px;
+	margin: 0 auto;
+}
+#nav{
+	width: 100%;
+	background: #4CACF8;
+}
+#nav a:hover{
+	text-decoration: underline;
+}
+#nav ul{
+	width: 960px;
+	margin: 0 auto;
+	height: 38px;
+	overflow:hidden;
+}
+#nav .nav1{
+	float: left;
+}
+#nav .nav1 a{
+	color: #fff;
+	line-height: 38px;
+}
+#nav .nav2{
+	float: right;
+}
+#nav .nav2 a{
+	display: block;
+	width: 132px;
+	height: 38px;
+	line-height: 35px;
+	margin-top: 7px;
+	background: url('../images/nav.fw.png');
+	color: #025AAF;
+	text-align: center;
+	font-weight: bold;
+}
+#dw,#main,#footer{
+	width: 960px;
+	margin: 0 auto;
+}
+#dw{
+	background: #F6F6F6;
+	height: 82px;
+}
+#dw a:hover{
+	text-decoration: underline;
+}
+#dw h2{
+	background: url('../images/tubiao.fw.png') no-repeat 15px 28px;
+	width: 124px;
+	height: 82px;
+	line-height: 82px;
+}
+#dw h2 a{
+	color: #76654C;
+	font-weight: bold;
+	padding-left: 38px;
+}
+#dw ul{
+	width: 836px;
+	height: 46px;
+	padding: 18px 0;
+}
+#dw ul li{
+	float: left;
+}
+#dw ul li a{
+	display: block;
+	width: 83px;
+	color: #333;
+	line-height: 24px;
+}
+#main,#footer{
+	background: #fff;
+}
+#main{
+	border-top: 2px solid #DFDFDF;
+	border-bottom: 1px solid #CBD2CD;
+}
+#main .side1-1,#main .side1-2,#main .side1-3,#main .side1-4{
+	width: 100%;
+	height: 320px;
+	border-top: dashed #C8C8C8 1px;
+	border-bottom: solid #F2F2F2 1px;
+	margin-top: -1px;
+}
+#main .side1-1{
+	border-top: none;
+}
+#main .side1-4{
+	border-bottom: none;
+}
+#main .side1,#main .side2{
+	float: left;
+	width: 50%;
+	height: 320px;
+}
+#main .side1{
+	background: url('../images/main-cen.fw.png') no-repeat right;
+}
+#main h3 a:hover,#main p a:hover{
+	text-decoration: underline;
+}
+#main img{
+	float: left;
+	padding: 26px 14px 12px 26px;
+}
+#main .side-1{
+	width: 215px;
+	height: 140px;
+	padding: 26px 30px 0 0;
+}
+#main h3 a{
+	color: #0D88E9;
+	line-height: 20px;
+}
+#main .side11{
+	font-size: 12px;
+	line-height: 20px;
+	margin-top: 8px;
+}
+#main .y1,#main .y2,#main .y3,#main .y4{
+	display: inline-block;
+	line-height: 36px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+#main .y1,#main .y3{
+	width: 87px;
+}
+#main .y1{
+	margin-right: 10px;
+}
+#main .y1{
+	background: url('../images/orange.png') no-repeat;
+}
+#main .y3{
+	background: url('../images/gray.fw.png') no-repeat;
+}
+#main .y2{
+	background: url('../images/green.fw.png') no-repeat;
+	width: 184px;
+	margin-top: 4px;
+}
+#main .y4{
+	background: url('../images/blue.fw.png') no-repeat;
+	width: 184px;
+	margin-top: 4px;
+}
+#main .side-2{
+	width: 415px;
+	height: 130px;
+	padding: 0 30px 0 26px;
+}
+#main .side12{
+	font-size: 12px;
+	margin: 5px 0;
+	color: #666;
+	line-height: 20px;
+}
+#main span{
+	color: #FE0000;
+	font-size: 12px;
+	line-height: 24px;
+}
+#main p a{
+	font-size: 12px;
+	color: #37A5FA;
+	line-height: 24px;
+}
+#main .content{
+	width: 960px;
+	height: 48px;
+	text-align: center;
+	margin-top: 15px;
+}
+#main .content a{
+	display: inline-block;
+}
+#main .content a:hover{
+	background: #8AB923;
+	border: 1px solid #7DAC16;
+}
+#main .content .ye2,#main .content .ye3{
+	width: 27px;
+	line-height: 25px;
+	height: 25px;
+	text-align: center;
+}
+#main .content .ye1{
+	width: 67px;
+	line-height: 25px;
+	height: 25px;
+	text-align: center;
+	border: 1px solid #D7D7D7;
+}
+#main .content .ye2{
+	border: 1px solid #D7D7D7;
+}
+#main .content .ye3{
+	background: #8AB923;
+	border: 1px solid #7DAC16;
+}
+#footer{
+	width: 960px;
+	height: 85px;
+}
+#footer h2{
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+	padding: 48px 0 9px;
+}
